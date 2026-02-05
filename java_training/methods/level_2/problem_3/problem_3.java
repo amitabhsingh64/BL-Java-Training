@@ -8,7 +8,7 @@ public class problem_3 {
         
         System.out.print("Enter a year: ");
         int year = scanner.nextInt();
-        scanner.close();
+        scanner.close(); 
         
         if (isLeapYear(year)) {
             System.out.println(year + " is a Leap Year");
