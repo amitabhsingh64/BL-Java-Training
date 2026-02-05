@@ -1,8 +1,8 @@
-package Arrays.level02.problem_3;
+package Arrays.level02.problem_4;
 
 import java.util.Scanner;
 
-public class problem_3 {
+public class problem_4 {
     public static void main(String[] args) {
         Scanner scanner = new Scanner(System.in);
         
@@ -27,7 +27,15 @@ public class problem_3 {
         
         while (tempNumber > 0) {
             if (index == maxDigit) {
-                break;
+                maxDigit += 10;
+                int[] temp = new int[maxDigit];
+                
+                for (int i = 0; i < index; i++) {
+                    temp[i] = digits[i];
+                }
+                
+                digits = temp;
+                System.out.println("Array resized to accommodate more digits. New size: " + maxDigit);
             }
             
             int digit = (int)(tempNumber % 10);
