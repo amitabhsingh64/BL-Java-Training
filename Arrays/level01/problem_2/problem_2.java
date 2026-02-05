@@ -37,6 +37,6 @@ public class problem_2 {
             System.out.println("First element (" + numbers[0] + ") is greater than last element (" + numbers[numbers.length - 1] + ")");
         } else {
             System.out.println("First element (" + numbers[0] + ") is less than last element (" + numbers[numbers.length - 1] + ")");
-        }
+        } 
     }
 }
