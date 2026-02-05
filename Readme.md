@@ -42,11 +42,11 @@ The goal is to move beyond syntax and understand *how* Java executes code under 
 ###  Runtime Data Areas (Memory)
 | Area | Purpose | Shared? |
 | :--- | :--- | :--- |
-| **Method Area** | Stores class structures, static variables, and constants (Metaspace). | ✅ Yes |
-| **Heap Area** | The "Object Factory" – stores all Objects and Arrays. | ✅ Yes |
-| **Stack Area** | Stores method calls (Frames) and local variables. | ❌ No |
-| **PC Register** | Tracks the current instruction address. | ❌ No |
-| **Native Stack** | Handles C/C++ native method calls. | ❌ No |
+| **Method Area** | Stores class structures, static variables, and constants (Metaspace). |  Yes |
+| **Heap Area** | The "Object Factory" – stores all Objects and Arrays. |  Yes |
+| **Stack Area** | Stores method calls (Frames) and local variables. |  No |
+| **PC Register** | Tracks the current instruction address. |  No |
+| **Native Stack** | Handles C/C++ native method calls. |  No |
 
 ###  Execution Engine
 * **Interpreter:** Reads bytecode line-by-line.
