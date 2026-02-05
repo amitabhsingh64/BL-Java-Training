@@ -65,6 +65,6 @@ The goal is to move beyond syntax and understand *how* Java executes code under 
 ##  Author
 
 **Amitabh Singh**
-* ** Last Updated**
+**Last Updated**
 * 5th Feb 2026
 ---
