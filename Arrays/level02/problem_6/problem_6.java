@@ -11,6 +11,7 @@ public class problem_6 {
         
         if (numPersons <= 0) {
             System.out.println("Invalid input! Number of persons must be positive.");
+            scanner.close();
             return;
         }
         
