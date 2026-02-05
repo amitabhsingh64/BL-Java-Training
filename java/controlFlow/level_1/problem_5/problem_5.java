@@ -1,4 +1,4 @@
-package controlFlow.level_1.problem_5;
+package java.controlFlow.level_1.problem_5;
 
 import java.util.Scanner;
 

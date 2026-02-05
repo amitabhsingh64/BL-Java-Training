@@ -1,4 +1,4 @@
-package controlFlow.level_1.problem_2;
+package java.controlFlow.level_1.problem_2;
 
 import java.util.*;
 
