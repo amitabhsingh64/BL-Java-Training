@@ -6,6 +6,7 @@ public class problem_4 {
     public static void main(String[] args) {
         Scanner sc = new Scanner(System.in);
         System.out.println(PositiveNegativeZero(sc.nextInt()));
+        sc.close();
     }
 
     public static int PositiveNegativeZero(int num){
