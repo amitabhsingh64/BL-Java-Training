@@ -16,7 +16,7 @@ public class problem_1 {
         double time = scanner.nextDouble();
         
         double simpleInterest = calculateSimpleInterest(principal, rate, time);
-        
+        scanner.close();
         System.out.println("The Simple Interest is " + simpleInterest +  " for Principal " + principal +  ", Rate of Interest " + rate + "%" +  " and Time " + time + " years");
         
     }
