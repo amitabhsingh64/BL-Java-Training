@@ -1,4 +1,4 @@
-package java.methods.level_1.Problem_1;
+package java_training.methods.level_1.Problem_1;
 
 import java.util.Scanner;
 
