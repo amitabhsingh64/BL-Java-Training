@@ -2,7 +2,7 @@ package csv;
 
 import java.io.*;
 
-public class csv_handling {
+public class csv_reading {
     static void main (String[] args) throws Exception {
         BufferedReader br = new BufferedReader(new FileReader("/Users/amitabhsingh/code/BL-java-Training/BL-Java-Training/csv/file.csv"));
         String line;
@@ -16,7 +16,7 @@ public class csv_handling {
 //
 //        System.out.println("Id->" + id);
 //        System.out.println("Name->" + name);
-//        System.out.println("Marks->" + marks);
+//        System.out.println("Pin->" + marks);
 
 
 
@@ -30,7 +30,7 @@ public class csv_handling {
 
             System.out.println("Id->" + id);
             System.out.println("Name->" + name);
-            System.out.println("Marks->" + marks);
+            System.out.println("Pin->" + marks);
 
         }
 
