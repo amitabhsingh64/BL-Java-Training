@@ -1,4 +1,4 @@
-package bank;
+package review.bank;
 
 import java.util.HashMap;
 

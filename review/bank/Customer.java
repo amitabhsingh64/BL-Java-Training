@@ -1,4 +1,4 @@
-package bank;
+package review.bank;
 
 public class Customer {
     //Private variables (Encapsulation)

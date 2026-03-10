@@ -1,0 +1,8 @@
+DRY or dont repeat yourself
+
+This principle tells us to avoid repetition in code, it is highly connected to SSOT(Single source of truth).
+
+DRY should be followed in code, Documentation, environment Variables.
+
+In an environment where Multiple people are working on a same project SSOT
+is important for Cohesion and Coherence.
