@@ -4,7 +4,7 @@ public class SingletonClass {
 
     //Create a Singleton Class and break it.
     private static SingletonClass instance;
-    private SingletonClass() {
+     SingletonClass() {
         System.out.println("Creating SingletonClass");
     }
     public static SingletonClass getInstance() {

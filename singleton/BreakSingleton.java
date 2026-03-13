@@ -2,6 +2,9 @@ package singleton;
 
 import java.lang.reflect.Constructor;
 
+
+//1. more ways to break singleton
+//2. how to make singleton break proof
 public class BreakSingleton {
     public static void main(String[] args) {
         SingletonClass instance1 = SingletonClass.getInstance();

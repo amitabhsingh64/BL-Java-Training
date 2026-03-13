@@ -10,6 +10,12 @@ public class SavingsAccount implements AccountInterface{
         this.username = username;
         this.interest = interest;
     }
+
+    public static SavingsAccount createNewAccount( Double Balance, String username, double interest)
+    {
+        return new SavingsAccount(Balance, username, interest);
+    }
+
     public boolean getBalance() {
         System.out.println("Current Balance is "+balance);
         return true;

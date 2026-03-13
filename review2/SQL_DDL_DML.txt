@@ -1,0 +1,67 @@
+==========================================
+SQL DDL & DML COMMANDS WITH DEFINITIONS
+==========================================
+
+=== DDL COMMANDS ===
+(Data Definition Language - Define database structure)
+
+1. CREATE
+   Definition: Creates a new table, database, index, or other database object.
+   Example: CREATE TABLE students (id INT PRIMARY KEY, name VARCHAR(100));
+
+2. ALTER
+   Definition: Modifies the structure of an existing table or object.
+   Example: ALTER TABLE students ADD COLUMN age INT;
+
+3. DROP
+   Definition: Deletes an entire table, database, or index permanently.
+   Example: DROP TABLE students;
+
+4. TRUNCATE
+   Definition: Deletes all rows from a table but keeps the table structure intact (faster than DELETE).
+   Example: TRUNCATE TABLE students;
+
+5. RENAME
+   Definition: Renames an existing table or database object.
+   Example: RENAME TABLE students TO learners;
+
+---
+
+=== DML COMMANDS ===
+(Data Manipulation Language - Manipulate data in tables)
+
+1. SELECT
+   Definition: Retrieves/queries data from one or more tables.
+   Example: SELECT * FROM students WHERE age > 20;
+
+2. INSERT
+   Definition: Adds new rows/records into a table.
+   Example: INSERT INTO students (id, name, age) VALUES (1, 'Alice', 22);
+
+3. UPDATE
+   Definition: Modifies existing data in a table.
+   Example: UPDATE students SET age = 23 WHERE id = 1;
+
+4. DELETE
+   Definition: Removes rows from a table based on a condition.
+   Example: DELETE FROM students WHERE id = 1;
+
+---
+
+=== KEY DIFFERENCES ===
+
+DDL:
+- Defines structure
+- Auto-commits changes
+- Affects schema
+- Cannot rollback in most databases
+- Examples: CREATE, ALTER, DROP
+
+DML:
+- Modifies data
+- Requires explicit commit
+- Affects data within schema
+- Can be rolled back
+- Examples: SELECT, INSERT, UPDATE, DELETE
+
+==========================================

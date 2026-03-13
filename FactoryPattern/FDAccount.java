@@ -1,6 +1,6 @@
 package FactoryPattern;
 
-public class FDAccount {
+public class FDAccount implements  AccountInterface{
     private double balance;
     private String username;
     private double interest;
@@ -10,6 +10,12 @@ public class FDAccount {
         this.username = username;
         this.interest = interest;
     }
+
+    public static FDAccount createNewAccount( Double Balance, String username, double interest)
+    {
+        return new FDAccount(Balance, username, interest);
+    }
+
     public boolean getBalance() {
         System.out.println("Current Balance is "+balance);
         return true;

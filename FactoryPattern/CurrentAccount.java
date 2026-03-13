@@ -9,6 +9,12 @@ public class CurrentAccount implements AccountInterface{
         this.balance = balance;
         this.username = username;
     }
+
+    public static CurrentAccount createNewAccount( Double Balance, String username)
+    {
+        return new CurrentAccount(Balance, username);
+    }
+
     public boolean getBalance() {
         System.out.println("Current Balance is "+balance);
         return true;

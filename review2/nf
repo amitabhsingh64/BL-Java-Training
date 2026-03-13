@@ -1,0 +1,11 @@
+1NF (First Normal Form):
+Every cell in a table must hold only a single, indivisible value , not collection like list, dictionary.
+
+2NF (Second Normal Form):
+The table must be in 1NF, and there can be no partial dependencies.
+
+3NF (Third Normal Form):
+The table must be in 2NF, and there can be no transitive dependencies.
+
+BCNF(Boyce-Codd Normal Form):
+The table must be in 3NF, and for any dependency (A → B), A must be a candidate key.

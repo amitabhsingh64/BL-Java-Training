@@ -4,6 +4,8 @@ import java.util.ArrayList;
 import java.util.Collections;
 import java.util.List;
 
+
+//Functions like sleep, wait
 public class PrimeFinder implements Runnable {
 
     static final int TARGET = 1000;

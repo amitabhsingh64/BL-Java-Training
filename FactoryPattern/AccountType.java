@@ -1,7 +1,7 @@
 package FactoryPattern;
 
 public enum AccountType {
-    CURRENT,
-    SAVINGS,
-    FDACCOUNT
+    SavingsAccount,
+    CurrentAccount,
+    FDAccount
 }
