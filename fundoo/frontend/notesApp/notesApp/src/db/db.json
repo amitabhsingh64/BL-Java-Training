@@ -1,0 +1,148 @@
+{
+  "users": [
+    {
+      "id": "u1",
+      "firstName": "Amitabh",
+      "lastName": "Singh",
+      "email": "alex@example.com",
+      "password": "password123"
+    },
+    {
+      "id": "f5c18ad4-e274-4a05-b93b-dc78b86bc1ca",
+      "firstName": "AMITABH",
+      "lastName": "SINGH",
+      "email": "amitabh64@gmail.com",
+      "password": "amitabh@128"
+    },
+    {
+      "id": "b9c321ef-c2c6-4a55-b599-7bb19f3781ab",
+      "firstName": "test",
+      "lastName": "test",
+      "email": "test1@gmail.com",
+      "password": "test1@1234"
+    }
+  ],
+  "notes": [
+    {
+      "id": "1",
+      "userId": "u1",
+      "title": "Project Ideas",
+      "text": "Build a React Sidebar...",
+      "bgColor": "#ffffff",
+      "bgImage": "",
+      "isTrash": false,
+      "isArchive": false
+    },
+    {
+      "userId": "f5c18ad4-e274-4a05-b93b-dc78b86bc1ca",
+      "title": "11",
+      "text": "11",
+      "bgColor": "#faafa8",
+      "bgImage": "/src/assets/colorPalletBgImg/food_light_thumb_0615.svg",
+      "isTrash": false,
+      "isArchive": false,
+      "id": "2"
+    },
+    {
+      "userId": "f5c18ad4-e274-4a05-b93b-dc78b86bc1ca",
+      "title": "12",
+      "text": "2",
+      "bgColor": "#e2f6d3",
+      "bgImage": "",
+      "isTrash": true,
+      "isArchive": false,
+      "id": "4"
+    },
+    {
+      "userId": "f5c18ad4-e274-4a05-b93b-dc78b86bc1ca",
+      "title": "1",
+      "text": "5",
+      "bgColor": "#fff8b8",
+      "bgImage": "",
+      "isTrash": false,
+      "isArchive": false,
+      "id": "5"
+    },
+    {
+      "userId": "f5c18ad4-e274-4a05-b93b-dc78b86bc1ca",
+      "title": "5",
+      "text": "7",
+      "bgColor": "#ffffff",
+      "bgImage": "",
+      "isTrash": true,
+      "isArchive": false,
+      "id": "6"
+    },
+    {
+      "userId": "f5c18ad4-e274-4a05-b93b-dc78b86bc1ca",
+      "title": "7",
+      "text": "1",
+      "bgColor": "#ffffff",
+      "bgImage": "/src/assets/colorPalletBgImg/grocery_light_thumb_0615.svg",
+      "isTrash": true,
+      "isArchive": false,
+      "id": "7"
+    },
+    {
+      "id": "8cb0",
+      "userId": "f5c18ad4-e274-4a05-b93b-dc78b86bc1ca",
+      "title": "125",
+      "text": "abc",
+      "bgColor": "#f39f76",
+      "bgImage": "/src/assets/colorPalletBgImg/recipe_light_thumb_0615.svg",
+      "isTrash": true,
+      "isArchive": false
+    },
+    {
+      "id": "eb78",
+      "userId": "f5c18ad4-e274-4a05-b93b-dc78b86bc1ca",
+      "title": "fiftynn",
+      "text": "tdhtj",
+      "bgColor": "#ffffff",
+      "bgImage": "/src/assets/colorPalletBgImg/grocery_light_thumb_0615.svg",
+      "isTrash": false,
+      "isArchive": false
+    },
+    {
+      "userId": "1475d0b5-7805-45b4-991d-1dd798479003",
+      "title": "12",
+      "text": "wad",
+      "bgColor": "#e2f6d3",
+      "bgImage": "/src/assets/colorPalletBgImg/grocery_light_thumb_0615.svg",
+      "isTrash": false,
+      "isArchive": false,
+      "id": "n2SJ2hQ"
+    },
+    {
+      "userId": "1475d0b5-7805-45b4-991d-1dd798479003",
+      "title": "2",
+      "text": "w",
+      "bgColor": "#ffffff",
+      "bgImage": "",
+      "isTrash": false,
+      "isArchive": false,
+      "id": "ypr5KL0"
+    },
+    {
+      "userId": "1475d0b5-7805-45b4-991d-1dd798479003",
+      "title": "r3",
+      "text": "sf",
+      "bgColor": "#faafa8",
+      "bgImage": "/src/assets/colorPalletBgImg/food_light_thumb_0615.svg",
+      "isTrash": false,
+      "isArchive": false,
+      "id": "LOX6ARR"
+    },
+    {
+      "userId": "1475d0b5-7805-45b4-991d-1dd798479003",
+      "title": "bu",
+      "text": " hb",
+      "bgColor": "#ffffff",
+      "bgImage": "",
+      "isTrash": false,
+      "isArchive": false,
+      "id": "ONcx96M"
+    }
+  ],
+  "$schema": "./node_modules/json-server/schema.json"
+}

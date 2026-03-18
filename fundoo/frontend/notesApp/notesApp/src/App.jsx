@@ -1,0 +1,104 @@
+import { createBrowserRouter, RouterProvider, Navigate } from 'react-router-dom'
+
+// Pages
+import Dashboard from './pages/dashboard/dashboard.jsx'
+import Signup from './pages/signUp/SignUp.jsx'
+import Login from './pages/signIn/SignIn.jsx'
+import Trash from './pages/trash/trash.jsx'
+import Archive from './pages/archive/archive.jsx'
+import Reminders from './pages/reminders/reminders.jsx'
+import AuthRoute from './routing/AuthRoutes.jsx'
+import ProtectedRoute from './routing/ProtectedRoutes.jsx'
+import ForgotPassword from './pages/forgotPassword/ForgotPassword.jsx'
+import Payment from './pages/payment/Payment.jsx'
+
+const router = createBrowserRouter([
+  //PUBLIC ROUTES
+  {
+    path: '/signup',
+    element: (
+      <AuthRoute>
+        <Signup />
+      </AuthRoute>
+    )
+  },
+  {
+    path: '/login',
+    element: (
+      <AuthRoute>
+        <Login />
+      </AuthRoute>
+    )
+  },
+
+  {
+    path: '/forgot-password',
+    element: (
+      <AuthRoute>
+        <ForgotPassword />
+      </AuthRoute>
+    )
+  },
+
+  //PRIVATE ROUTES
+  {
+    path: '/',
+    element: <Navigate to="/dashboard" replace />
+  },
+  {
+    path: '/dashboard',
+    element: (
+      <ProtectedRoute>
+        <Dashboard />
+      </ProtectedRoute>
+    )
+  },
+  {
+    path: '/trash',
+    element: (
+      <ProtectedRoute>
+        <Trash />
+      </ProtectedRoute>
+    )
+  },
+  {
+    path: '/archive',
+    element: (
+      <ProtectedRoute>
+        <Archive />
+      </ProtectedRoute>
+    )
+  },
+  {
+    path: '/payment',
+    element: (
+      <ProtectedRoute>
+        <Payment />
+      </ProtectedRoute>
+    )
+  },
+  {
+    path: '/reminders',
+    element: (
+      <ProtectedRoute>
+        <Reminders />
+      </ProtectedRoute>
+    )
+  },
+  {
+    path: '/labels',
+    element: (
+      <ProtectedRoute>
+        <Dashboard />
+      </ProtectedRoute>
+    )
+  }
+])
+
+function App() {
+  return (
+    <RouterProvider router={router} />
+  )
+}
+
+export default App
